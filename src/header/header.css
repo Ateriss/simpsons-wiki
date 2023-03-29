@@ -1,0 +1,16 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    height: 200px;
+}
+
+.header__logo{
+    width: 300px;
+}
+
+#logo{
+    width: 100%;
+}
