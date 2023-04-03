@@ -58,6 +58,6 @@ a {
     --color-VerdeMarge: #D6E69F;
     --color-Blanco: #FFFFFF;
     --color-NaranjaLisa: #f05e2f;
-
+	--hover: adjust-hue(#FED90F, 45deg);
 }
 
