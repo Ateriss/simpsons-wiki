@@ -26,7 +26,7 @@ footer, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	overflow-x: hidden;
+	overflow: hidden;
 
 }
 ol, ul {
@@ -58,8 +58,6 @@ a {
     --color-VerdeMarge: #D6E69F;
     --color-Blanco: #FFFFFF;
     --color-NaranjaLisa: #f05e2f;
-
-    --ocupacion: url(/src/assets/icons/maletin-en-blanco.png);
 
 }
 

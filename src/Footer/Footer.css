@@ -1,0 +1,16 @@
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 15px 0;
+    color: var(--color-AmarilloSimpson);
+    font-weight: 800;
+    line-height: 1.5rem;
+    -webkit-text-stroke: 1px var(--color-Pants);
+}
