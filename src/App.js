@@ -13,7 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(null);
 
-  const initialUrl = `https://apisimpsons.fly.dev/api/personajes?limit=8&page=${currentPage}`;
+  
 
   const FetchPersonajes = (url) => {
     fetch(url)
@@ -26,6 +26,7 @@ function App() {
   };
 
   useEffect(() =>{
+    const initialUrl = `https://apisimpsons.fly.dev/api/personajes?limit=8&page=${currentPage}`;
     FetchPersonajes(initialUrl);
   }, [currentPage])
 

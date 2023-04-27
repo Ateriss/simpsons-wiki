@@ -9,7 +9,7 @@ function Header (setSearchTerm){
                 <div>
                     <div className="header__logo">
                         <a href="/" >
-                            <img src={Logo} id="logo" />
+                            <img src={Logo} id="logo" alt="logo" />
                         </a>
                     </div>
                     <Search setSearchTerm={setSearchTerm} />

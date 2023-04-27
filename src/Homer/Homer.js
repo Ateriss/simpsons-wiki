@@ -25,8 +25,8 @@ function Homer (){
                     <a className="rrss" href="https://www.linkedin.com/in/alexandra-linares-vi%C3%B1a-67b027125/" target="_blank" >  <Linkedin color="#424F46" size={32} /> </a>
                 </div>
                 <div className="links">
-                    <a className="link" target="_blank"  href="https://ateriss.github.io/Portafolio-Personal/" ><img src={Ateris} className="ateris" /> <p>Haz click aquí para ver su portafolio</p><img src={Ateris} className="ateris" /> </a>
-                    <a className="link" target="_blank"  href="https://simpsonsapi.000webhostapp.com/" ><img src={Dona} className="dona" /><p>Haz click aquí para ver la documentación de la API</p><img src={Dona} className="dona" /></a>
+                    <a className="link" target="_blank" rel="noreferrer"  href="https://ateriss.github.io/Portafolio-Personal/" ><img src={Ateris} className="ateris" alt="Logo Ateris" /> <p>Haz click aquí para ver su portafolio</p><img src={Ateris} alt="Logo Ateris" className="ateris" /> </a>
+                    <a className="link" target="_blank" rel="noreferrer"  href="https://simpsonsapi.000webhostapp.com/" ><img src={Dona} alt="Dona" className="dona" /><p>Haz click aquí para ver la documentación de la API</p><img src={Dona} className="dona" alt="dona" /></a>
                 </div>
                 </div>
             </div>
